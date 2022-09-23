@@ -1,0 +1,98 @@
+.container-incript {
+  display: flex;
+  margin: 15rem 0 0 0rem;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.incript-input{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  color: red;
+  background-color: transparent;
+  outline: 2px solid red;
+}
+
+
+.container-btn {
+  display: flex;
+  margin: 1rem 0 0 0rem;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.btn span{
+  display: block;
+  background-color: #111;
+  padding: 5px 20px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+/*
+input.checkbox {
+  display: none;
+}
+
+label{
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+label::before,
+label::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+label::before{
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: cadetblue;
+}
+
+label::after{
+  left: -7px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid cadetblue;
+  opacity: 0;
+}
+
+input:checked ~ label::after{
+  opacity: 1;
+  animation: scaleInOut .25s;
+}
+
+@keyframes scaleInOut{
+  0% {
+    transform: translateY(-50%) scale(1.5);
+  }
+  50% {
+    transform: translateY(-50%) scale(0.5);
+  }
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+}*/
